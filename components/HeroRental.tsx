@@ -119,7 +119,7 @@ export default function HeroSection() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-end animate-fade-in-up">
             <div className="hidden md:block">
-              <h1 className="text-4xl md:text-3xl lg:text-4xl xl:text-6xl font-bold text-white leading-[1.1] tracking-tight">
+              <h1 className="text-4xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white leading-[1.1] tracking-tight">
                 Solusi Transportasi Anda <br />
                 <span className="italic font-light opacity-90">
                   a new travel experience.
