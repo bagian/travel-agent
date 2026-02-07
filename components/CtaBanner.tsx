@@ -18,7 +18,7 @@ export default function CtaBanner() {
               alt="Premium Fleet Rahayu Trans"
               width={1200}
               height={800}
-              className="object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.3)] scale-150"
+              className="object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.3)] scale-150 pointer-events-none"
               priority
               quality={90}
               sizes="800px"

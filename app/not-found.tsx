@@ -10,12 +10,12 @@ export default function NotFound() {
       <div className="container max-w-4xl mx-auto flex flex-col items-center text-center">
         {/* Visual Section - Menggunakan Aset Mobil Utama */}
         <div className="relative w-full max-w-lg aspect-video mb-12 animate-in fade-in zoom-in duration-700">
-          <div className="absolute inset-0 bg-red-600/5 rounded-[40px] blur-3xl -z-10" />
+          <div className="absolute inset-0 bg-red-600/10 rounded-[40px] blur-3xl -z-10" />
           <Image
-            src="/img/car/platinum-white-pearl-mc-split.png" // Menggunakan aset lokal
+            src="/img/car/HIACE-PREMIO-SILVER.webp" // Menggunakan aset lokal
             alt="Page Not Found"
             fill
-            className="object-contain drop-shadow-[0_20px_50px_rgba(220,38,38,0.15)]"
+            className="object-contain drop-shadow-[0_20px_50px_rgba(220,38,38,0.15)] pointer-events-none"
             priority
           />
         </div>
