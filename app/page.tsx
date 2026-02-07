@@ -1,4 +1,7 @@
-import Image from "next/image";
+"use client";
+
+import {motion} from "framer-motion";
+import ScrollReveal from "@/components/ScrollReveal"; // Impor pembungkus tadi
 import HeroRental from "@/components/HeroRental";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import FeaturedFleet from "@/components/FeaturedFleet";
@@ -10,15 +13,42 @@ import Partners from "@/components/Partners";
 
 export default function Home() {
   return (
-    <main>
+    <motion.main
+      initial={{opacity: 0}}
+      animate={{opacity: 1}}
+      transition={{duration: 0.5}}
+    >
+      {/* Hero biasanya muncul langsung, jadi tidak perlu ScrollReveal */}
       <HeroRental />
-      <Partners />
-      <WhyChooseUs />
-      <FeaturedFleet />
-      <BookingSteps />
-      <Testimonials />
-      <Faq />
-      <CtaBanner />
-    </main>
+
+      {/* Gunakan ScrollReveal untuk section selanjutnya */}
+      <ScrollReveal>
+        <Partners />
+      </ScrollReveal>
+
+      <ScrollReveal>
+        <WhyChooseUs />
+      </ScrollReveal>
+
+      <ScrollReveal>
+        <FeaturedFleet />
+      </ScrollReveal>
+
+      <ScrollReveal>
+        <BookingSteps />
+      </ScrollReveal>
+
+      <ScrollReveal>
+        <Testimonials />
+      </ScrollReveal>
+
+      <ScrollReveal>
+        <Faq />
+      </ScrollReveal>
+
+      <ScrollReveal>
+        <CtaBanner />
+      </ScrollReveal>
+    </motion.main>
   );
 }

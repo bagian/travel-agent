@@ -127,9 +127,9 @@ export default function HeroSection() {
               </h1>
             </div>
 
-            <div className="flex flex-col items-center md:items-end gap-6 md:gap-10 pb-12">
-              <p className="text-white/80 text-sm md:text-base max-w-sm text-center md:text-right leading-relaxed font-light">
-                Kami berada diberbagai lokasi seperti di Kota Surabaya,
+            <div className="flex flex-col items-center md:items-end gap-6 md:gap-10 pb-8">
+              <p className="text-white/80 text-sm md:text-base max-w-sm text-center md:text-right leading-relaxed font-light hidden md:block">
+                Kami tersedia di berbagai Kota, seperti di Kota Surabaya,
                 Yogyakarta, Bandung dan Bali.
               </p>
 

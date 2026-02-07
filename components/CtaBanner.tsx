@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export default function CtaBanner() {
   return (
-    <section className="py-24 container mx-auto px-6">
-      <div className="relative bg-red-600 rounded-[50px] overflow-hidden shadow-2xl shadow-red-200 min-h-[500px] flex items-center">
+    <section className="py-24 max-w-[1440px] mx-auto px-6">
+      <div className="relative  rounded-[50px] overflow-hidden shadow-2xl shadow-red-200 min-h-[500px] flex items-center bg-gradient-to-r from-rose-300 to-red-700">
         {/* Dekorasi Background */}
         <div className="absolute -top-24 -left-24 w-96 h-96 bg-white/10 rounded-full blur-3xl z-0" />
         <div className="absolute -bottom-24 -right-24 w-80 h-80 bg-black/10 rounded-full blur-3xl z-0" />
@@ -28,11 +28,11 @@ export default function CtaBanner() {
           {/* SISI TEKS */}
           <div className="text-center lg:text-left order-1 lg:order-2">
             <span className="bg-white/20 text-white px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
-              Promo Terbatas
+              Info Info
             </span>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mt-6 mb-6 leading-tight">
               Siap Menjelajahi <br />
-              <span className="text-slate-900">Perjalanan Anda?</span>
+              <span className="text-slate-900">Perjalanan?</span>
             </h2>
             <p className="text-white/90 text-base md:text-lg mb-10 font-medium leading-relaxed max-w-xl mx-auto lg:mx-0">
               Nikmati kenyamanan berkendara dengan armada terbaru kami. Dapatkan
