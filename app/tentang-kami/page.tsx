@@ -227,15 +227,15 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="w-full lg:w-1/2 relative mt-12 lg:mt-0">
-              <div className="relative aspect-square bg-white rounded-[32px] md:rounded-[40px] overflow-hidden border border-slate-100 shadow-xl p-8">
+              <div className="relative aspect-square">
                 <Image
                   src="/img/car/platinum-white-pearl-mc-split.png"
                   alt="Reliability"
                   fill
-                  className="object-contain p-6 md:p-10 hover:scale-110 transition-transform duration-700"
+                  className="object-contain p-6 md:p-4 hover:scale-110 transition-transform duration-700 w-32"
                 />
               </div>
-              <div className="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 bg-red-600 text-white p-6 md:p-8 rounded-[24px] md:rounded-[30px] shadow-2xl">
+              <div className="absolute -bottom-4 -right-2 md:-bottom-0 md:-right-1 bg-red-600 text-white p-6 md:p-8 rounded-[24px] md:rounded-[30px] shadow-2xl">
                 <p className="text-2xl md:text-3xl font-black italic">10Y+</p>
                 <p className="text-[8px] md:text-[10px] font-bold uppercase tracking-widest">
                   Experience
